@@ -41,7 +41,7 @@ src/
 ```
 
 ## Deployment
-Deployed on Vercel — [Live Demo](https://devhire.vercel.app)
+Deployed on Vercel — [Live Demo](https://devhire-beta.vercel.app/)
 
 ## Author
 Vasvi Shukla — [GitHub](https://github.com/VasviShukla) · [LinkedIn](https://www.linkedin.com/in/vasvishukla/)
