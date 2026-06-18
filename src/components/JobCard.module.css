@@ -1,0 +1,140 @@
+.card {
+  background: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 10px;
+  transition: border-color 0.15s;
+}
+
+.card:hover {
+  border-color: #ccc;
+}
+
+.featured {
+  border-left: 3px solid #534AB7;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.logo {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.info { flex: 1; }
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.featuredBadge {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: #EEEDFE;
+  color: #3C3489;
+  font-weight: 500;
+}
+
+.meta {
+  font-size: 12px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.salary {
+  font-size: 13px;
+  font-weight: 500;
+  color: #444;
+  white-space: nowrap;
+  margin-left: 12px;
+}
+
+.badges {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.badge {
+  font-size: 11px;
+  padding: 3px 9px;
+  border-radius: 6px;
+}
+
+.gray { background: #F1EFE8; color: #444441; }
+.teal { background: #E1F5EE; color: #085041; }
+.blue { background: #E6F1FB; color: #0C447C; }
+
+.description {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.detailBtn {
+  background: transparent;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #555;
+  transition: background 0.15s;
+}
+
+.detailBtn:hover { background: #f5f5f5; }
+
+.applyBtn {
+  background: #534AB7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 16px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.applyBtn:hover { background: #3C3489; }
